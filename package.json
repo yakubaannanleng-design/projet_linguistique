@@ -4,9 +4,8 @@
   "description": "Traducteur et dictionnaire collaboratif pour la langue guidar",
   "main": "server/index.js",
   "scripts": {
-    "dev": "concurrently \"vite\" \"node server/index.js\"",
     "build": "node build-noop.js",
-    "preview": "node -e \"console.log('Preview non disponible en mode no-op')\"",
+    "start": "node server/index.js",
     "server": "node server/index.js",
     "sync": "node sync-dictionary.js",
     "clean": "rm -rf node_modules dist npm-install.log"

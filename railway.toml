@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+buildCommand = "npm run build"
+startCommand = "npm start"
+
+[deploy]
+rootDirectory = "."
+healthcheckPath = "/api/dictionary"
+healthcheckTimeoutSeconds = 30
+restartPolicy = "ON_FAILURE"
