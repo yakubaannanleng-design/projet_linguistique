@@ -1,9 +1,0 @@
-{
-  "name": "Traducteur Guidar",
-  "short_name": "Guidar",
-  "description": "Traducteur et dictionnaire collaboratif pour la langue guidar.",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#050505"
-}
