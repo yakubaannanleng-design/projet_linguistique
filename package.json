@@ -4,7 +4,7 @@
   "description": "Traducteur et dictionnaire collaboratif pour la langue guidar",
   "main": "server/index.js",
   "scripts": {
-    "build": "node build-noop.js",
+    "build": "node build-frontend.js",
     "start": "node server/index.js",
     "server": "node server/index.js",
     "sync": "node sync-dictionary.js",
